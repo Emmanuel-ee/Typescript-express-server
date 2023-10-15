@@ -1,0 +1,27 @@
+
+GET http://localhost:3000/
+
+########
+
+POST http://localhost:3000/
+Content-Type: application/json
+
+{
+    "name": "Emmanuel Ememe",
+    "Age": 23,
+    "Job": "Developer"
+}
+
+######
+
+DELETE http://localhost:3000/Emmanuel Ememe
+
+######
+
+PUT http://localhost:3000/Samuel Ememe
+Content-Type: application/json
+
+{
+    "Age": 29,
+    "Job": "Full Stack Developer"
+}
